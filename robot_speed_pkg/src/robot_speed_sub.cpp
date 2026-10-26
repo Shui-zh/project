@@ -54,11 +54,11 @@ private:
         std::cout << "Speed Diffrence: " << result << std::endl; 
         if(result < 3)
         {
-            std::cout << "NORMAL" << std::endl;
+            std::cout << "State: NORMAL" << std::endl;
         }
         else
         {
-            std::cout << "WARNING" << std::endl;
+            std::cout << "State: WARNING" << std::endl;
         }
 
         warning_num_ = 0;
