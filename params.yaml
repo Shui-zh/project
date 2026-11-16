@@ -1,0 +1,16 @@
+min_snap:
+  ros__parameters:
+    occupied_thresh: 50
+    v_ref: 1.0              
+    min_seg_time: 1.0
+    max_seg_time: 4.0
+    insert_spacing: 1.0
+    max_rect_half: 0.50
+    min_rect_half: 0.01        
+    collision_dt: 0.01      
+    sample_dt: 0.05         
+    max_iters: 20
+    obstacle_margin: 0.05
+    inflation_radius: 0.05
+    clearance_weight: 0.5
+    auto_reroute: true
